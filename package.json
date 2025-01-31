@@ -1,0 +1,26 @@
+{
+    "name": "authguardian",
+    "version": "1.0.0",
+    "description": "A JavaScript application that controls the Token and SSH Key authorizations for a GitHub Organization.",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "<repository-url>"
+    },
+    "keywords": [
+      "github",
+      "authorization",
+      "tokens",
+      "ssh-keys"
+    ],
+    "author": "Your Name",
+    "license": "MIT",
+    "dependencies": {
+      "@octokit/rest": "^19.0.7",
+      "dotenv": "^16.0.3",
+      "node-cron": "^3.0.0"
+    }
+  }
