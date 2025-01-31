@@ -12,27 +12,25 @@ This is a JavaScript application that controls the Token and SSH Key authorizati
 
 1. Clone the repository:
    ```sh
-   git clone <repository-url>
-   cd <repository-directory>
+   git clone https://github.com/homeles/AuthGuardian
+   cd AuthGuardian
     ```
 
 2. Install the required packages:
-
-```
-npm install
-```
+   ```sh
+   npm install
+   ```
 
 3. Create a .env file in the root directory of the project and add the following environment variables
-
-```
-GITHUB_TOKEN=your-github-token
-ORG_NAME=your-org-name
-```
+    ```sh
+    GITHUB_TOKEN=your-github-token
+    ORG_NAME=your-org-name
+    ```
 
 ## Running the Application
 To run the application, use the following command:
 
-```
+```sh
 node index.js
 ```
 
