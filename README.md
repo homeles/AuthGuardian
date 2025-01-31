@@ -1,6 +1,6 @@
 # AuthGuardian
 
-This is a JavaScript application that controls the Token and SSH Key authorizations for a GitHub Organization. It lists all credential authorizations in the organization every hour.
+This application generates a CSV file that contains all the SSH Keys and PATs (Personal Access Tokens) Registered in a GitHub Organization
 
 ## Prerequisites
 
